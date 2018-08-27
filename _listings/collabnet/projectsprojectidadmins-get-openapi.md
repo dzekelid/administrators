@@ -1,13 +1,12 @@
 ---
 swagger: "2.0"
-x-collection-name: Facebook
+x-collection-name: CollabNet
 x-complete: 0
 info:
-  title: Facebook Get Page Admins
-  description: A list of the Page's admins.
+  title: CollabNet TeamForge API Documentation Gets project administrators
   version: 1.0.0
-host: graph.facebook.com
-basePath: /
+  description: Gets project administrators.
+basePath: /ctfrest/foundation/v1
 schemes:
 - http
 produces:
@@ -15,22 +14,22 @@ produces:
 consumes:
 - application/json
 paths:
-  /{page}/admins:
+  /projects/{projectid}/admins:
     get:
-      summary: Get Page Admins
-      description: A list of the Page's admins.
-      operationId: getPageAdmins
-      x-api-path-slug: pageadmins-get
+      summary: Gets project administrators
+      description: Gets project administrators.
+      operationId: getProjectAdmins
+      x-api-path-slug: projectsprojectidadmins-get
       parameters:
       - in: path
-        name: page
-        description: Represents the ID of the page object
+        name: projectid
+        description: Project identifier
       responses:
         200:
           description: OK
       tags:
-      - Page
-      - Admins
+      - Project
+      - Administrators
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

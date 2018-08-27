@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Administrators",
+	"description": "This is a repository of administrators APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/administrators.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://administrators.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Respoke",
+			"x-api-slug": "respoke",
+			"description": "Respoke makes it incredibly easy to add real-time communications capabilities to the things you build. Integrate text chat, audio calling, video collaboration, screen sharing, and peer-to-peer data with just a few lines of JavaScript.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg",
+			"humanURL": "https://www.respoke.io",
+			"baseURL": "https://api.respoke.io/v1/",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/respoke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Strava",
+			"x-api-slug": "strava",
+			"description": "Strava is software as a service used to track cycling, running, and swimming activity via GPS.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg",
+			"humanURL": "",
+			"baseURL": "https://www.strava.com//api/v3",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/strava/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Administrators",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Administrators",
+	"include": [
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Respoke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/respoke/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Strava",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/strava/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

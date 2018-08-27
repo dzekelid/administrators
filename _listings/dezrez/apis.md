@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Administrators
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,6 +24,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apibranchidadministrators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apibranchidadministrators-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get the administrators for an agency
+  x-api-slug: apiagencyadministrators-get
+  description: Get the administrators for an agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apiagencyadministrators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/dezrez/apiagencyadministrators-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Get the administrators for an agency
   x-api-slug: apiagencyadministrators-get
   description: Get the administrators for an agency.

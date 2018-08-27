@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-stra
 x-kinRank: "7"
 x-alexaRank: "887"
 tags: Administrators
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/strava/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Strava API v3 - List Club Administrators.
+  x-api-slug: clubsidadmins-get
+  description: Returns a list of the administrators of a given club.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/strava/clubsidadmins-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://storecove.api.gallery.streamdata.io

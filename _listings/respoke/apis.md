@@ -8,11 +8,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Administrators
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/respoke/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Respoke REST API - Permissions
+  x-api-slug: adminsessions-post
+  description: Full API permissions are obtained by POSTing your username and password
+    to [base]/adminsessions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg
+  humanURL: https://www.respoke.io
+  baseURL: https://api.respoke.io/v1/
+  tags: Target, Change Log Example, Voice, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/respoke/adminsessions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrators/master/_listings/respoke/adminsessions-post-openapi.md
 - name: Respoke REST API - Permissions
   x-api-slug: adminsessions-post
   description: Full API permissions are obtained by POSTing your username and password
